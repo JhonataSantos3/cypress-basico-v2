@@ -122,7 +122,7 @@ it('verifica que a política de privacidade abre em outra aba sem a necessidade 
         .click()
         cy.contains('Talking About Testing').should('be.visible')
     })
-    it.only'testa a página da política de privavidade de forma independente', function(){
+    it('testa a página da política de privavidade de forma independente', function(){
 
     })
   
